@@ -36,6 +36,23 @@ function Home() {
         </ul>
         <button onClick={shuffle}>Shuffle</button>
       </div>
+        <div className="keyboard-help">
+    <h1>Keyboard Navigation</h1>
+    <p>This site is can be used with just a keyboard</p>
+    <ul>
+        <li><strong>Tab</strong> — move forward through links and buttons</li>
+        <li><strong>Shift + Tab</strong> — move backward</li>
+        <li><strong>Enter</strong> — hit the current link or button</li>
+        <li><strong>Space</strong> — also hit the current button</li>
+    </ul>
+    <p>
+        A visible line is around whatever element is currently focused.
+    </p>
+    <h2>What I focused on</h2>
+    <p>
+        I tried to apply visability and usability principles.
+    </p>
+    </div>
     </div>
   )
 }

@@ -1,20 +1,20 @@
 function ThingsToRead() {
   const links = [
-    { title: 'Link 1', url: 'https://example.com' },
-    { title: 'Link 2', url: 'https://example.com' },
-    { title: 'Link 3', url: 'https://example.com' },
-    { title: 'Link 4', url: 'https://example.com' },
-    { title: 'Link 5', url: 'https://example.com' },
-    { title: 'Link 6', url: 'https://example.com' },
-    { title: 'Link 7', url: 'https://example.com' },
-    { title: 'Link 8', url: 'https://example.com' },
-    { title: 'Link 9', url: 'https://example.com' },
-    { title: 'Link 10', url: 'https://example.com' },
+    { title: 'Neural DSP Quad Cortex', url: 'https://neuraldsp.com/quad-cortex' },
+    { title: 'Nepali Momos', url: 'https://www.youtube.com/shorts/1oAV_q7qqjc' },
+    { title: 'My Favorite Hardcore Band (Vein.fm)', url: 'https://vein.fm' },
+    { title: 'Old School Games', url: 'https://gam.onl/' },
+    { title: 'Community Owned Music Platform', url: 'https://www.subvert.fm/' },
+    { title: 'My Band', url: 'https://www.instagram.com/foreign_reign.206/?g=5' },
+    { title: 'Ox Billiards', url: 'https://www.oxbilliards.com/' },
+    { title: 'Malcolm X Wiki', url: 'https://en.wikipedia.org/wiki/Malcolm_X' },
+    { title: '2025 Nepalese Gen Z Protests', url: 'https://en.wikipedia.org/wiki/2025_Nepalese_Gen_Z_protests' },
+    { title: 'Vocal Warm Up', url: 'https://www.youtube.com/watch?v=rYsuVwyGe-4&t=176s&pp=ygUNdm9jYWwgd2FybXVwcw%3D%3D' },
   ]
 
   return (
     <div className="app">
-      <h1>Things to Read</h1>
+      <h1>Things I find Interesting</h1>
       <ul className="read-list">
         {links.map((link, index) => (
           <li key={index}>
